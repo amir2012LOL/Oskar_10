@@ -1,0 +1,43 @@
+
+
+@media (max-width: 580px) {
+    header nav{
+        flex-direction: column;
+        padding-top: 20px;
+    }
+    header .menu nav ul li a{
+        padding: 23px;
+    }
+    
+    header .cap i{
+        font-size: 30px;
+    }
+    
+    header .cap p{
+        font-size: 13px;
+        margin-left: 10px;
+    }
+    
+    header .text {
+        padding: 60px 0;
+    }
+    
+    header .text h1{
+        font-size: 40px;
+    }
+    
+    header .text p{
+        font-size: 16px;
+    }
+    
+    header .text .btn{
+        flex-direction: column;
+        width: 100%;
+        margin-top: 50px;
+    }
+    
+    header .text .btn a{
+        margin-bottom: 10px;
+        width: 100%;
+    }
+}
